@@ -29,13 +29,13 @@
   <li>Create .env file in the project app folder</li>
     <ol>
       <li>setup the variables for the database connectivity</li>
-      <li>verify and add  
-        ```               DJANGO_DEBUG=True
+      <li>verify and add  </li>
+        <code>            DJANGO_DEBUG=True
                           DB_DATABASE='database_name'
                           DB_USERNAME='username'
                           DB_PASSWORD='password'
                           DB_HOST='localhost'
-        ```
+        </code>
       </li>
     </ol>
   <li>make migration</li>
